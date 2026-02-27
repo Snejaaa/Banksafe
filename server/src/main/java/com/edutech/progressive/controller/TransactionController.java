@@ -1,0 +1,48 @@
+
+package com.edutech.progressive.controller;
+ 
+import org.springframework.http.ResponseEntity;
+
+import org.springframework.web.bind.annotation.RestController;
+ 
+import com.edutech.progressive.entity.Transactions;
+ 
+import java.util.List;
+ 
+@RestController
+
+public class TransactionController {
+ 
+    public ResponseEntity<List<Transactions>> getAllTransactions() {
+
+        return null;
+
+    }
+
+    public ResponseEntity<Transactions> getTransactionById(int transactionId) {
+
+        return null;
+
+    }
+
+    public ResponseEntity<Integer> addTransaction(Transactions transaction) {
+
+        return null;
+
+    }
+
+    public ResponseEntity<Void> updateTransaction(int transactionId, Transactions transaction) {
+
+        return null;
+
+    }
+
+    public ResponseEntity<Void> deleteTransaction(int transactionId) {
+
+        return null;
+
+    }
+
+}
+
+ 
